@@ -6,5 +6,5 @@ def main(asssetDir):
     for scene in scenes:
         abc = mayaUtils.exportCamera(scene)
         print('Exported:', abc)
-dir1= r'G:\projects\XBL3\pytool\dir1'
+dir1= r'G:\projects\XBL3\X26\mbs'
 main(dir1)

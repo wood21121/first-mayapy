@@ -19,3 +19,14 @@ def getFilesOfTpye(destinationDir, fileType):
         for y in glob.glob(os.path.join(x[0], '*%s' % fileType)):
                 fils.append(y)
     return fils
+
+def moveAbcFile(sourcedir,fileType):
+    fils =[]
+    for x in os.walk(sourcedir):
+        for y in glob.glob(os.path.join(x[0], '*%s' % fileType)):
+            fils.append(y)
+    return fils
+
+
+
+
